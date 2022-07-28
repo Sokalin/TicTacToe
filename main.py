@@ -286,11 +286,12 @@ class TicTacToe:
                 break
 
 
-game = TicTacToe(5, 6, 4)
-game.create_player('!', 'h', 'Fox')
-game.create_player('+', 'c', 'XD')
-game.create_player('*', 'c')
-game.play()
-game.change_size(3, 4, 3)
-game.play('!', '+')
+# example of use:
+# game = TicTacToe(5, 6, 4)
+# game.create_player('!', 'h', 'Fox')
+# game.create_player('+', 'c', 'XD')
+# game.create_player('*', 'c')
+# game.play()
+# game.change_size(3, 4, 3)
+# game.play('!', '+')
 
