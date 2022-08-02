@@ -18,4 +18,9 @@ amount rows of game field, amout colums and amount chars for win (all args by de
 <code>...............................</code><br>
 Here first arg is unique symbol (two players musn't have one symbol).<br>
 Secod arg is type of player: h - human (for move player must be input index in console), c - computer (move by using random).<br>
-Third arg is name of player: you can create player without name, it use for view in console.
+Third arg is name of player: you can create player without name, it use for view in console.<br><br>
+<strong>Then</strong> you can call method play:<br>
+<code>game.play()</code><br>
+It begins the game in console with all created players. If you want start game with correct players you can give there chars to method play:<br>
+<code>game.play('A', 'C')</code><br>
+You can call this method as many times as you like.
