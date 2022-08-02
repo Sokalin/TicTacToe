@@ -23,6 +23,7 @@ Third arg is name of player: you can create player without name, it use for view
 <code>game.play()</code><br>
 It begins the game in console with all created players. If you want start game with correct players you can give there chars to method play:<br>
 <code>game.play('A', 'C')</code><br>
-You can call this method as many times as you like.<br>
+You can call this method as many times as you like.<br><br>
 If you want change game field size between games your can use specific method:<br>
-<code>game.play('A', 'C')</code>
+<code>game.change_size(3, 4, 3)game.play('A', 'C')</code><br>
+There are args like in initioin game object.
